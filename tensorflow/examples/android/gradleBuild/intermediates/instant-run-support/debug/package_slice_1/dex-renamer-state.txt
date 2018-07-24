@@ -1,0 +1,4 @@
+#Wed Jun 13 13:06:17 PDT 2018
+base.0=/home/lyq/tf-mobile-gpu-training/tensorflow/examples/android/gradleBuild/intermediates/transforms/dexMerger/debug/20
+path.0=classes.dex
+renamed.0=classes.dex

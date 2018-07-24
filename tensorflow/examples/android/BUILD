@@ -61,6 +61,7 @@ cc_library(
     ],
 )
 
+
 android_binary(
     name = "tensorflow_demo",
     srcs = glob([
@@ -116,5 +117,6 @@ filegroup(
     name = "resource_files",
     srcs = glob(["res/**"]),
 )
+
 
 exports_files(["AndroidManifest.xml"])

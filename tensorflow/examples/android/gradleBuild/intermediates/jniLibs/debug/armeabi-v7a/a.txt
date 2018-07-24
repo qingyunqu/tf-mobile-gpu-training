@@ -1,0 +1,357 @@
+
+libtensorflow_inference.so:     file format elf32-little
+
+SYMBOL TABLE:
+no symbols
+
+
+DYNAMIC SYMBOL TABLE:
+000b9bc1 g    DF .text	0000005c  VERS_1.0    Java_org_tensorflow_contrib_android_RunStats_allocate
+00000000      DF *UND*	00000000  LIBC        __system_property_get
+00000000      DF *UND*	00000000  LIBC        __cxa_finalize
+00000000      DF *UND*	00000000  LIBC        __cxa_atexit
+00000000      DF *UND*	00000000              __aeabi_unwind_cpp_pr0
+000b9c39 g    DF .text	000000f0  VERS_1.0    Java_org_tensorflow_contrib_android_RunStats_add
+00000000      DF *UND*	00000000              AAssetManager_open
+000b9c1d g    DF .text	0000001c  VERS_1.0    Java_org_tensorflow_contrib_android_RunStats_delete
+00000000      DF *UND*	00000000              AAsset_close
+00000000      DF *UND*	00000000  LIBC        __stack_chk_fail
+00000000      DO *UND*	00000000  LIBC        __stack_chk_guard
+00000000      DF *UND*	00000000  LIBC        pthread_create
+000b9d29 g    DF .text	00000274  VERS_1.0    Java_org_tensorflow_contrib_android_RunStats_summary
+00000000      DF *UND*	00000000  LIBC        clock_gettime
+00000000      DF *UND*	00000000              AAsset_openFileDescriptor64
+00000000      DF *UND*	00000000  LIBC        pread
+00000000      DF *UND*	00000000  LIBC        close
+00000000      DF *UND*	00000000              AAsset_getLength64
+00000000      DF *UND*	00000000              AAsset_getBuffer
+00000000      DF *UND*	00000000              __aeabi_memcpy
+00000000      DF *UND*	00000000              AAssetManager_openDir
+00000000      DF *UND*	00000000              AAssetDir_getNextFileName
+00000000      DF *UND*	00000000              AAssetDir_close
+00000000      DF *UND*	00000000              AAsset_seek64
+00000000      DF *UND*	00000000              AAsset_read
+00000000      DF *UND*	00000000  LIBC        strlen
+00000000      DO *UND*	00000000              _ZTVN10__cxxabiv120__si_class_type_infoE
+00000000      DO *UND*	00000000              _ZTVN10__cxxabiv117__class_type_infoE
+00000000      DF *UND*	00000000  LIBC        malloc
+00000000      DF *UND*	00000000  LIBC        vsnprintf
+00000000      DF *UND*	00000000  LIBC        free
+000bc5a5 g    DF .text	0000004c  VERS_1.0    Java_org_tensorflow_Tensor_buffer
+000ba06d g    DF .text	0000000a  VERS_1.0    Java_org_tensorflow_Graph_allocate
+000bc5f1 g    DF .text	00000034  VERS_1.0    Java_org_tensorflow_Tensor_dtype
+000ba077 g    DF .text	0000000e  VERS_1.0    Java_org_tensorflow_Graph_delete
+000bc595 g    DF .text	0000000e  VERS_1.0    Java_org_tensorflow_Tensor_delete
+000ba085 g    DF .text	00000064  VERS_1.0    Java_org_tensorflow_Graph_operation
+000ba0e9 g    DF .text	00000090  VERS_1.0    Java_org_tensorflow_Graph_nextOperation
+000bc181 g    DF .text	00000290  VERS_1.0    Java_org_tensorflow_Tensor_allocateNonScalarBytes
+000ba179 g    DF .text	000000f8  VERS_1.0    Java_org_tensorflow_Graph_importGraphDef
+000bc6b5 g    DF .text	00000290  VERS_1.0    Java_org_tensorflow_Tensor_setValue
+000bc625 g    DF .text	00000090  VERS_1.0    Java_org_tensorflow_Tensor_shape
+000bcdf1 g    DF .text	00000080  VERS_1.0    Java_org_tensorflow_Tensor_scalarLong
+000bce71 g    DF .text	00000080  VERS_1.0    Java_org_tensorflow_Tensor_scalarBoolean
+000ba271 g    DF .text	000000ac  VERS_1.0    Java_org_tensorflow_Graph_toGraphDef
+000bccd9 g    DF .text	00000098  VERS_1.0    Java_org_tensorflow_Tensor_scalarDouble
+000bcd71 g    DF .text	00000080  VERS_1.0    Java_org_tensorflow_Tensor_scalarInt
+000ba31d g    DF .text	00000088  VERS_1.0    Java_org_tensorflow_OperationBuilder_allocate
+000bcc3d g    DF .text	0000009c  VERS_1.0    Java_org_tensorflow_Tensor_scalarFloat
+000ba3a5 g    DF .text	00000058  VERS_1.0    Java_org_tensorflow_OperationBuilder_finish
+000ba3fd g    DF .text	00000050  VERS_1.0    Java_org_tensorflow_OperationBuilder_addInput
+000bd61d g    DF .text	0000004a  VERS_1.0    Java_org_tensorflow_TensorFlow_libraryLoad
+000ba44d g    DF .text	0000015c  VERS_1.0    Java_org_tensorflow_OperationBuilder_addInputList
+000bd5e1 g    DF .text	0000003c  VERS_1.0    Java_org_tensorflow_TensorFlow_registeredOpList
+000bd019 g    DF .text	0000013c  VERS_1.0    Java_org_tensorflow_Tensor_readNDArray
+000ba5a9 g    DF .text	0000004c  VERS_1.0    Java_org_tensorflow_OperationBuilder_addControlInput
+000bd5c9 g    DF .text	00000018  VERS_1.0    Java_org_tensorflow_TensorFlow_version
+000bcef1 g    DF .text	00000128  VERS_1.0    Java_org_tensorflow_Tensor_scalarBytes
+000ba5f5 g    DF .text	00000060  VERS_1.0    Java_org_tensorflow_OperationBuilder_setDevice
+000bb3c5 g    DF .text	00000184  VERS_1.0    Java_org_tensorflow_Operation_shape
+000ba655 g    DF .text	00000098  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrString
+00000000  w   DF *UND*	00000000  LIBC        pthread_cond_broadcast
+000bb34d g    DF .text	00000078  VERS_1.0    Java_org_tensorflow_Operation_outputListLength
+000ba6ed g    DF .text	0000006c  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrInt
+000bb319 g    DF .text	00000034  VERS_1.0    Java_org_tensorflow_Operation_numOutputs
+000ba759 g    DF .text	00000114  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrIntList
+000bb2d9 g    DF .text	00000040  VERS_1.0    Java_org_tensorflow_Operation_type
+000ba86d g    DF .text	00000070  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrFloat
+00000000      DF *UND*	00000000              __aeabi_unwind_cpp_pr1
+000ba8dd g    DF .text	00000110  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrFloatList
+000bb645 g    DF .text	00000238  VERS_1.0    Java_org_tensorflow_SavedModelBundle_load
+000ba9ed g    DF .text	00000064  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrBool
+000bb5cd g    DF .text	00000078  VERS_1.0    Java_org_tensorflow_Operation_inputListLength
+000baa51 g    DF .text	000000fc  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrBoolList
+000bb549 g    DF .text	00000084  VERS_1.0    Java_org_tensorflow_Operation_dtype
+000bab4d g    DF .text	00000064  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrType
+000babb1 g    DF .text	000000f8  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrTypeList
+000bb8c9 g    DF .text	00000012  VERS_1.0    Java_org_tensorflow_Session_allocate
+000bb8dd g    DF .text	00000108  VERS_1.0    Java_org_tensorflow_Session_allocate2
+000baca9 g    DF .text	0000009c  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrTensor
+000bad45 g    DF .text	0000014c  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrTensorList
+000bae91 g    DF .text	00000114  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrShape
+000bafa5 g    DF .text	00000180  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrShapeList
+00000000      DF *UND*	00000000  LIBC        setlocale
+00000000      DF *UND*	00000000              __aeabi_memcpy8
+00000000      DF *UND*	00000000  LIBC        strftime
+000bc0e5 g    DF .text	00000090  VERS_1.0    Java_org_tensorflow_Tensor_allocateScalarBytes
+000bb125 g    DF .text	00000174  VERS_1.0    Java_org_tensorflow_OperationBuilder_setAttrStringList
+000bbfc1 g    DF .text	00000124  VERS_1.0    Java_org_tensorflow_Tensor_allocate
+000bb9e5 g    DF .text	00000054  VERS_1.0    Java_org_tensorflow_Session_delete
+000bb299 g    DF .text	00000040  VERS_1.0    Java_org_tensorflow_Operation_name
+000bba39 g    DF .text	00000480  VERS_1.0    Java_org_tensorflow_Session_run
+00000000      DF *UND*	00000000  LIBC        strtoll
+00000000      DF *UND*	00000000  LIBC        fread
+00000000  w   DF *UND*	00000000  LIBC        pthread_detach
+00000000      DF *UND*	00000000  LIBC        strtoul
+00000000      DF *UND*	00000000  LIBC        strtoull
+00000000      DF *UND*	00000000  LIBC        fputc
+00000000      DF *UND*	00000000  LIBC        time
+000bd667 g    DF .text	0000000e  VERS_1.0    Java_org_tensorflow_TensorFlow_libraryDelete
+000bd675 g    DF .text	00000080  VERS_1.0    Java_org_tensorflow_TensorFlow_libraryOpList
+00000000      DF *UND*	00000000              __aeabi_memclr8
+00000000      DF *UND*	00000000              __aeabi_uidivmod
+00000000      DF *UND*	00000000              __aeabi_memclr4
+00000000      DF *UND*	00000000  LIBC        strcmp
+00000000      DF *UND*	00000000  LIBC        memcmp
+00000000      DF *UND*	00000000              __aeabi_memcpy4
+00000000      DF *UND*	00000000              __aeabi_memmove8
+00000000      DF *UND*	00000000              __aeabi_memmove4
+00000000      DO *UND*	00000000  LIBC        _ctype_
+00000000      DO *UND*	00000000  LIBC        _tolower_tab_
+00000000      DO *UND*	00000000              _ZTIh
+00000000      DO *UND*	00000000              _ZTVN10__cxxabiv120__function_type_infoE
+00000000      DO *UND*	00000000              _ZTVN10__cxxabiv119__pointer_type_infoE
+00000000      DF *UND*	00000000              __aeabi_ldivmod
+00000000      DF *UND*	00000000              __aeabi_idiv
+00000000      DF *UND*	00000000              __aeabi_idivmod
+00000000      DF *UND*	00000000              __cxa_guard_acquire
+00000000      DF *UND*	00000000              __cxa_guard_release
+00000000      DF *UND*	00000000              __aeabi_l2d
+00000000      DF *UND*	00000000  LIBC        ceilf
+00000000      DF *UND*	00000000  LIBC        ceil
+00000000      DF *UND*	00000000              __aeabi_l2f
+00000000      DF *UND*	00000000  LIBC        floorf
+00000000      DF *UND*	00000000  LIBC        pthread_mutex_lock
+00000000      DF *UND*	00000000  LIBC        pthread_mutex_unlock
+00000000      DF *UND*	00000000              __cxa_pure_virtual
+00000000      DF *UND*	00000000  LIBC        getc
+00000000      DF *UND*	00000000  LIBC        ungetc
+00000000      DF *UND*	00000000              __aeabi_memset
+00000000      DO *UND*	00000000              _ZTIi
+00000000      DO *UND*	00000000              _ZTVN10__cxxabiv121__vmi_class_type_infoE
+00000000      DF *UND*	00000000  LIBC        floor
+00000000      DF *UND*	00000000              __aeabi_memmove
+00000000      DF *UND*	00000000              __aeabi_memclr
+00000000      DF *UND*	00000000              __aeabi_uldivmod
+00000000      DF *UND*	00000000  LIBC        expf
+00000000      DF *UND*	00000000  LIBC        logf
+00000000      DF *UND*	00000000  LIBC        strchr
+00000000      DF *UND*	00000000  LIBC        lseek
+00000000      DF *UND*	00000000  LIBC        sprintf
+00000000      DF *UND*	00000000  LIBC        strtod
+00000000      DF *UND*	00000000              __aeabi_uidiv
+00000000      DF *UND*	00000000  LIBC        exit
+00000000      DF *UND*	00000000  LIBC        strncmp
+00000000      DF *UND*	00000000  LIBC        sqrt
+00000000      DF *UND*	00000000  LIBC        usleep
+00000000      DF *UND*	00000000  LIBC        pthread_join
+00000000      DF *UND*	00000000  LIBC        atoi
+00000000      DF *UND*	00000000  LIBC        exp
+00000000      DF *UND*	00000000  LIBC        cosf
+00000000      DF *UND*	00000000  LIBC        sinf
+00000000      DF *UND*	00000000  LIBC        cos
+00000000      DF *UND*	00000000  LIBC        sin
+00000000      DF *UND*	00000000  LIBC        calloc
+00000000      DF *UND*	00000000  LIBC        fmodf
+00000000      DF *UND*	00000000  LIBC        fmod
+00000000  w   DF *UND*	00000000  LIBC        pthread_mutex_trylock
+00000000      DF *UND*	00000000  LIBC        sched_yield
+00000000      DF *UND*	00000000  LIBC        pthread_self
+00000000      DF *UND*	00000000  LIBC        memchr
+00000000      DF *UND*	00000000  LIBC        snprintf
+00000000      DO *UND*	00000000  LIBC        _toupper_tab_
+00000000      DF *UND*	00000000  LIBC        sscanf
+00000000      DF *UND*	00000000  LIBC        strtol
+00000000  w   DF *UND*	00000000  LIBC        pthread_once
+00000000      DF *UND*	00000000  LIBC        strrchr
+00000000      DF *UND*	00000000  LIBC        readlink
+00000000      DF *UND*	00000000  LIBC        getpid
+00000000      DF *UND*	00000000  LIBC        realloc
+00000000      DF *UND*	00000000  LIBC        gethostname
+00000000      DF *UND*	00000000  LIBC        getsockname
+00000000      DF *UND*	00000000  LIBC        bind
+00000000      DF *UND*	00000000  LIBC        setsockopt
+00000000      DF *UND*	00000000  LIBC        socket
+00000000      DF *UND*	00000000  LIBC        rmdir
+00000000      DF *UND*	00000000  LIBC        mkdir
+00000000      DF *UND*	00000000  LIBC        unlink
+00000000      DF *UND*	00000000  LIBC        closedir
+00000000      DF *UND*	00000000  LIBC        readdir
+00000000      DF *UND*	00000000  LIBC        opendir
+00000000      DF *UND*	00000000  LIBC        mmap
+00000000      DF *UND*	00000000  LIBC        fstat
+00000000      DF *UND*	00000000  LIBC        fopen
+00000000      DF *UND*	00000000  LIBC        open
+00000000      DF *UND*	00000000  LIBC        lrand48
+00000000      DF *UND*	00000000  LIBC        dlsym
+00000000      DF *UND*	00000000  LIBC        dlerror
+00000000      DF *UND*	00000000  LIBC        dlopen
+00000000      DF *UND*	00000000  LIBC        strerror
+00000000      DF *UND*	00000000  LIBC        gettimeofday
+00000000  w   DF *UND*	00000000  LIBC        pthread_equal
+00000000      DF *UND*	00000000  LIBC        access
+00000000      DF *UND*	00000000  LIBC        stat
+00000000      DF *UND*	00000000  LIBC        __errno
+00000000      DF *UND*	00000000  LIBC        nanosleep
+00000000      DF *UND*	00000000  LIBC        fnmatch
+00000000      DF *UND*	00000000  LIBC        _exit
+00000000      DF *UND*	00000000  LIBC        execv
+00000000      DF *UND*	00000000  LIBC        dup2
+00000000      DF *UND*	00000000  LIBC        fork
+00000000      DF *UND*	00000000  LIBC        fcntl
+00000000      DF *UND*	00000000  LIBC        pipe
+00000000      DF *UND*	00000000  LIBC        strdup
+00000000      DF *UND*	00000000  LIBC        poll
+00000000      DF *UND*	00000000  LIBC        sigaction
+00000000      DF *UND*	00000000  LIBC        kill
+00000000      DF *UND*	00000000  LIBC        waitpid
+00000000      DF *UND*	00000000  LIBC        fflush
+00000000      DF *UND*	00000000  LIBC        fwrite
+00000000      DF *UND*	00000000  LIBC        fclose
+00000000      DF *UND*	00000000  LIBC        write
+00000000      DF *UND*	00000000  LIBC        read
+00000000      DF *UND*	00000000  LIBC        rename
+00000000      DF *UND*	00000000  LIBC        munmap
+00000000      DF *UND*	00000000  LIBC        puts
+00000000      DF *UND*	00000000  LIBC        printf
+00000000      DF *UND*	00000000  LIBC        log
+00000000      DF *UND*	00000000  LIBC        atan2f
+00000000      DF *UND*	00000000  LIBC        atan2
+00000000      DF *UND*	00000000  LIBC        pthread_setspecific
+00000000      DF *UND*	00000000  LIBC        pthread_key_create
+00000000      DF *UND*	00000000  LIBC        pthread_getspecific
+00000000  w   DF *UND*	00000000  LIBC        pthread_cond_timedwait
+00000000      DF *UND*	00000000  LIBC        powf
+00000000      DF *UND*	00000000  LIBC        pow
+00000000      DF *UND*	00000000  LIBC        sqrtf
+00000000      DF *UND*	00000000  LIBC        pthread_mutex_init
+00000000      DF *UND*	00000000  LIBC        pthread_cond_init
+00000000      DF *UND*	00000000  LIBC        tanhf
+00000000      DF *UND*	00000000  LIBC        tanh
+00000000      DF *UND*	00000000  LIBC        sinhf
+00000000      DF *UND*	00000000  LIBC        coshf
+00000000      DF *UND*	00000000  LIBC        sinh
+00000000      DF *UND*	00000000  LIBC        cosh
+00000000      DF *UND*	00000000  LIBC        sysconf
+00000000      DF *UND*	00000000  LIBC        pthread_mutex_destroy
+00000000      DF *UND*	00000000  LIBC        pthread_cond_destroy
+00000000      DF *UND*	00000000  LIBC        getenv
+00000000      DF *UND*	00000000  LIBC        pthread_cond_signal
+00000000      DF *UND*	00000000  LIBC        abort
+00000000      DF *UND*	00000000  LIBC        pthread_cond_wait
+00000000      DF *UND*	00000000  LIBC        roundf
+00000000      DF *UND*	00000000  LIBC        log1pf
+00000000      DF *UND*	00000000              __aeabi_ul2d
+00000000      DF *UND*	00000000  LIBC        lrint
+00000000      DF *UND*	00000000              __aeabi_memset8
+00000000      DF *UND*	00000000  LIBC        round
+00000000      DO *UND*	00000000  LIBC        __sF
+00000000      DF *UND*	00000000  LIBC        fprintf
+00000000      DF *UND*	00000000  LIBC        memalign
+00000000      DF *UND*	00000000  LIBC        sincos
+00000000      DF *UND*	00000000  LIBC        sincosf
+00000000      DO *UND*	00000000              _ZTIc
+00000000      DF *UND*	00000000              __aeabi_memset4
+00000000      DO *UND*	00000000              _ZTIf
+00000000      DO *UND*	00000000              _ZTIb
+00000000      DO *UND*	00000000              _ZTId
+00000000      DF *UND*	00000000              inflateInit2_
+00000000      DF *UND*	00000000              inflateEnd
+00000000      DF *UND*	00000000              inflate
+00000000      DF *UND*	00000000              deflateInit2_
+00000000      DF *UND*	00000000              deflate
+00000000      DF *UND*	00000000              deflateEnd
+00000000      DF *UND*	00000000              __cxa_demangle
+00000000      DF *UND*	00000000              __android_log_write
+00000000      DO *UND*	00000000              _ZTIv
+00000000      DF *UND*	00000000              __gxx_personality_v0
+00000000      DF *UND*	00000000              _Unwind_Resume
+00000000      DF *UND*	00000000              __dynamic_cast
+00000000      DF *UND*	00000000              __cxa_rethrow
+00000000      DF *UND*	00000000              __android_log_print
+00d5bc94 g    D  *ABS*	00000000  Base        _end
+00000000      DF *UND*	00000000              __cxa_free_exception
+00000000      DF *UND*	00000000              __cxa_free_dependent_exception
+00000000      DF *UND*	00000000              __aeabi_ul2f
+00000000      DO *UND*	00000000              _ZTISt10bad_typeid
+00000000      DF *UND*	00000000              __cxa_current_exception_type
+00000000      DO *UND*	00000000              _ZTISt8bad_cast
+00000000      DO *UND*	00000000              _ZTVSt16bad_array_length
+00000000      DF *UND*	00000000              __cxa_allocate_dependent_exception
+00000000      DF *UND*	00000000              __aeabi_dsub
+00000000      DF *UND*	00000000              __aeabi_fsub
+00000000      DF *UND*	00000000              __cxa_get_globals
+00000000      DF *UND*	00000000              __cxa_throw
+00000000      DF *UND*	00000000              __cxa_end_cleanup
+00000000      DF *UND*	00000000              __cxa_get_globals_fast
+00000000      DF *UND*	00000000              __cxa_call_unexpected
+00000000      DO *UND*	00000000              _ZTISt9bad_alloc
+00000000      DF *UND*	00000000              _ZNSt9bad_allocD1Ev
+00000000      DF *UND*	00000000              __aeabi_dadd
+00000000      DF *UND*	00000000              __aeabi_fadd
+00000000      DF *UND*	00000000              __aeabi_ui2d
+00d54df0 g    D  *ABS*	00000000  Base        _edata
+00000000      DF *UND*	00000000              _ZNSt8bad_castD1Ev
+00000000      DF *UND*	00000000              __cxa_allocate_exception
+00000000      DO *UND*	00000000              _ZTVSt10bad_typeid
+00000000      DF *UND*	00000000              _ZNSt20bad_array_new_lengthD1Ev
+00000000      DF *UND*	00000000              _Unwind_Complete
+00000000      DO *UND*	00000000              _ZTVSt20bad_array_new_length
+00d54df0 g    D  *ABS*	00000000  Base        __bss_start
+00000000      DF *UND*	00000000              __aeabi_f2d
+00000000      DF *UND*	00000000              _ZNSt16bad_array_lengthD1Ev
+00000000      DO *UND*	00000000              _ZTISt20bad_array_new_length
+00000000      DO *UND*	00000000              _ZTVSt9bad_alloc
+00000000      DF *UND*	00000000              __cxa_guard_abort
+00000000      DF *UND*	00000000              _Unwind_RaiseException
+00000000      DO *UND*	00000000              _ZTVSt8bad_cast
+00000000      DF *UND*	00000000              _Unwind_DeleteException
+00000000      DO *UND*	00000000              _ZTISt16bad_array_length
+00000000      DF *UND*	00000000              _ZNSt10bad_typeidD1Ev
+00000000      DF *UND*	00000000  LIBC        fputs
+00000000      DF *UND*	00000000  LIBC        strpbrk
+00000000      DF *UND*	00000000  LIBC        memcpy
+00000000      DF *UND*	00000000  LIBC        memset
+00000000      DF *UND*	00000000  LIBC        wctype
+00000000      DF *UND*	00000000  LIBC        towupper
+00000000      DF *UND*	00000000  LIBC        towlower
+00000000      DF *UND*	00000000  LIBC        iswctype
+00000000      DF *UND*	00000000  LIBC        wctob
+00000000      DF *UND*	00000000  LIBC        btowc
+00000000      DF *UND*	00000000  LIBC        wmemchr
+00000000      DF *UND*	00000000  LIBC        wmemcpy
+00000000      DF *UND*	00000000  LIBC        vsprintf
+00000000      DF *UND*	00000000  LIBC        fseek
+00000000      DF *UND*	00000000  LIBC        ftell
+00000000      DF *UND*	00000000  LIBC        getwc
+00000000      DF *UND*	00000000  LIBC        ungetwc
+00000000      DF *UND*	00000000  LIBC        putwc
+00000000      DF *UND*	00000000  LIBC        putc
+00000000      DF *UND*	00000000  LIBC        wcslen
+00000000      DF *UND*	00000000  LIBC        wcsftime
+00000000      DF *UND*	00000000  LIBC        wmemset
+00000000      DF *UND*	00000000  LIBC        memmove
+00000000      DF *UND*	00000000  LIBC        wmemmove
+00000000      DF *UND*	00000000  LIBC        wmemcmp
+00000000      DF *UND*	00000000  LIBC        wcrtomb
+00000000      DF *UND*	00000000  LIBC        mbrtowc
+00000000      DF *UND*	00000000  LIBC        strcoll
+00000000      DF *UND*	00000000  LIBC        strxfrm
+00000000      DF *UND*	00000000  LIBC        wcscoll
+00000000      DF *UND*	00000000  LIBC        wcsxfrm
+00000000      DF *UND*	00000000  LIBC        fdopen
+00000000      DF *UND*	00000000  LIBC        setvbuf
+00000000      DF *UND*	00000000  LIBC        writev
+00000000      DF *UND*	00000000  LIBC        ioctl
+00000000 g    DO *ABS*	00000000  VERS_1.0    VERS_1.0
+
+

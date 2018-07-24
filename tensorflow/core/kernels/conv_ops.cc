@@ -46,10 +46,10 @@ limitations under the License.
 #include "tensorflow/core/util/use_cudnn.h"
 
 // renderscript support
-//#include <fstream>
-//#include <time.h>
-//#include "tensorflow/contrib/android_renderscript_ops/jni/rsConv.h"
-//#include "tensorflow/contrib/android_renderscript_ops/utils/android_utils.h"
+#include <fstream>
+#include <time.h>
+#include "tensorflow/contrib/android_renderscript_ops/jni/rsConv.h"
+#include "tensorflow/contrib/android_renderscript_ops/utils/android_utils.h"
 // renderscript support
 
 #if GOOGLE_CUDA
@@ -425,19 +425,27 @@ class Conv2DOp : public BinaryOp<T> {
             output, data_format_)) {
       return;
     }
+	android_log_print("RS Conv init");
+	char tmp[30];
+	sprintf(tmp,"sizeof(T):%d",sizeof(T));
+	android_log_print(tmp);
+	sprintf(tmp,"filter rows:%d, cols:%d",filter_rows,filter_cols);
+	android_log_print(tmp);
 /*	androidrs::conv::rsConvInfo convInfo(in_depth, input_rows, input_cols, filter_rows, filter_cols,
                                          stride_rows, stride_cols, pad_rows, pad_cols, 
                                          out_depth, out_rows, out_cols, batch, sizeof(T));
-   
+    android_log_print("RS Conv begin");
     androidrs::conv::rsConv_script<T>(static_cast<void*>(const_cast<char*>(filter.tensor_data().data())), 
                                       static_cast<void*>(const_cast<char*>(input.tensor_data().data())), 
                                       static_cast<void*>(const_cast<char*>(output->tensor_data().data())), 
                                       convInfo);
-
 */
+
+	android_log_print("CPU test Conv");
     launcher_(context, use_cudnn_, cudnn_use_autotune_, input, filter,
               dilation_rows, dilation_cols, stride_rows, stride_cols, padding_,
               output, data_format_);
+
   }
 
  private:

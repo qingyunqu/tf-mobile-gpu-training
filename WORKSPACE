@@ -28,14 +28,14 @@ android_sdk_repository(
    api_level = 23,
     # Ensure that you have the build_tools_version below installed in the
     # SDK manager as it updates periodically.
-    build_tools_version = "26.0.1",
+    build_tools_version = "27.0.3",
     # Replace with path to Android SDK on your system
     path = "/home/lyq/Android/Sdk",
 )
 
 android_ndk_repository(
     name="androidndk",
-    path="/home/lyq/Android/Ndk/android-ndk-r12b/",
+    path="/home/lyq/Android/Ndk/android-ndk-r14b/",
     # This needs to be 14 or higher to compile TensorFlow.
     # Please specify API level to >= 21 to build for 64-bit
     # archtectures or the Android NDK will automatically select biggest

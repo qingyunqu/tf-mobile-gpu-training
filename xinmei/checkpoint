@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/pubsrv/data/models/generic_1000w_extracted_compress40/model/pretrain/model_test.ckpt-781370"
+all_model_checkpoint_paths: "/home/pubsrv/data/models/generic_1000w_extracted_compress40/model/pretrain/model_test.ckpt-468822"
+all_model_checkpoint_paths: "/home/pubsrv/data/models/generic_1000w_extracted_compress40/model/pretrain/model_test.ckpt-546959"
+all_model_checkpoint_paths: "/home/pubsrv/data/models/generic_1000w_extracted_compress40/model/pretrain/model_test.ckpt-625096"
+all_model_checkpoint_paths: "/home/pubsrv/data/models/generic_1000w_extracted_compress40/model/pretrain/model_test.ckpt-703233"
+all_model_checkpoint_paths: "/home/pubsrv/data/models/generic_1000w_extracted_compress40/model/pretrain/model_test.ckpt-781370"

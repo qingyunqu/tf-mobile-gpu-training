@@ -8,6 +8,7 @@
 
 #include "tensorflow/contrib/android_renderscript_ops/jni/RScommon.h"
 #include "tensorflow/contrib/android_renderscript_ops/jni/ScriptC_mScriptConv.h"
+#include "tensorflow/contrib/android_renderscript_ops/utils/android_utils.h"
 
 
 namespace androidrs {
@@ -74,11 +75,12 @@ void rsConv_script(void* filter, void* input, void* output, rsConvInfo convInfo)
     if(!androidrs::conv::mRS->getContext()){
         androidrs::conv::mRS->init(androidrs::conv::cachePath);
     }
-
+		android_log_print("sp create begin");
      // if(count<tot_conv_cnt){
         static sp<const Element> e = Element::F32(androidrs::conv::mRS);
 
         // alloc filter
+		
         sp<const Type> all_filters_t = Type::create(androidrs::conv::mRS, e, convInfo.out_depth * convInfo.in_depth * convInfo.filter_rows * convInfo.filter_cols,
                                                         0,
                                                         0);
@@ -102,12 +104,14 @@ void rsConv_script(void* filter, void* input, void* output, rsConvInfo convInfo)
     // allFilters_alloc_vec[idx]->copy1DFrom(filter);
     // allInputs_alloc_vec[idx]->copy1DFrom(input);
 
+	android_log_print("copy1D begin");
     allFilters_alloc->copy1DFrom(filter);
     allInputs_alloc->copy1DFrom(input);
     
     sp<ScriptC_mScriptConv> sc = initSC();
 
     //kernel
+	android_log_print("kernel begin");
     sc->set_in_depth(convInfo.in_depth);
     sc->set_input_rows(convInfo.input_rows);
     sc->set_input_cols(convInfo.input_cols);
@@ -127,8 +131,10 @@ void rsConv_script(void* filter, void* input, void* output, rsConvInfo convInfo)
     sc->set_inputs(allInputs_alloc);
     sc->invoke_initParam();
 
+	android_log_print("forEach_launch begin");
     // sc->forEach_launchConvF32(allOutputs_alloc_vec[idx]);
     sc->forEach_launchConvF32(allOutputs_alloc);
+	android_log_print("output copy1D begin");
     allOutputs_alloc->copy1DTo(output);
     // allOutputs_alloc_vec[idx]->copy1DTo(output);
     // count++;
